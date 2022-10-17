@@ -1,0 +1,264 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* custom */
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* header */
+/* Custom Styles */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 1.5;
+}
+
+/* Flex */
+
+.flex {
+  display: flex;
+}
+
+.jcb {
+  justify-content: space-evenly;
+}
+
+.aic {
+  align-items: center;
+}
+
+.jcc {
+  justify-content: center;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.flex-30 {
+  flex: 0 1 31%;
+}
+
+/* General Styles */
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Header */
+
+header {
+  background: linear-gradient(to right, rgb(108, 183, 210), rgb(157, 125, 250));
+  padding: 1.5rem 0;
+  text-align: center;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.heading {
+  margin-top: 0.5rem;
+}
+
+.tags li {
+  background-color: black;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.active,
+.tags li:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+.cards {
+  text-align: center;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+.cards li {
+  border-radius: 1rem;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 300px;
+  background-color: skyblue;
+  color: black;
+}
+.cards h2{
+  font-size: 1.6rem;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.know {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 0.7rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  border: 0;
+}
